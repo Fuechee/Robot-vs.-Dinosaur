@@ -7,9 +7,12 @@ class Battlefield:
         self.dinosaur = Dinosaur()
     
     def run_game(self):
-        pass
+        self.display_welcome(self)
+        self.battle_phase(self)
+        self.display_winner(self)
 
-    def disaply_welcome(self):
+
+    def display_welcome(self):
         pass
 
     def battle_phase(self):
